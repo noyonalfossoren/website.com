@@ -1,0 +1,53 @@
+.b1{
+    
+    
+}
+.b2{
+height: 400px;
+width: 1000px;
+background: #ddd;
+margin: auto;
+}
+.b3{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-left: 10px solid tomato;
+    
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    
+}
+.b4{
+    border-right: 10px solid tomato;
+    
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.b5{
+    position: relative;
+    top: -10px;
+    rotate: deg45;
+    margin: auto;
+    border-right: 10px solid tomato;
+    
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    
+}
+.b6{
+    border-left: 10px solid tomato;
+    position: relative;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}

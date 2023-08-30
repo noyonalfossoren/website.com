@@ -1,0 +1,94 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+    background: linear-gradient(to left, #03E9FF, #0d4d53);
+}
+
+:root {
+    --primary-color: #03E9FF;
+    --secondary-color: #0d4d53;
+    --primaryl-color: linear-gradient(to left, #03E9FF, #0d4d53);
+    --secondary-color2: #de3c09;
+    --hover-color: #f6b924;
+    --yellow-color: #ff9800;
+    --foreground-color: #202a3f;
+    --foreground-sub-color: #313749;
+    --body-text-color: #000000;
+    --text-white-color: #fff;
+    --body-background-color: #fff;
+    --bg-offwhite-color: #eff3f7;
+    --bg-gray-color: #f5f8ff;
+    --bg-black-color: #000000;
+    --bg-light-dark-color: #1a1818;
+    --border-color: #d9d9d9;
+    --rubik-fonts: "Inter", sans-serif;
+    --body-font-size: 1.4rem;
+    --body-font-weight: 400;
+    --body-line-height: 2.5rem;
+    --headings-weight: 700;
+    --transition: all 0.3s ease 0s;
+    --container-fluid-offset: 12rem;
+  }
+
+  .headsectioninner{
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.logo{
+
+}
+
+  .ulsectioninner{
+    
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
